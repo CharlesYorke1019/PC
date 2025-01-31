@@ -36,15 +36,16 @@ const PORT = process.env.PORT || 8080;
 
 const socketPORT = 5000;
 
-io.use((socket, next) => {
-    const token = socket.handshake.auth.token;
-    console.log(token);
-    if (authJwt.isValidJwt(token)) {
-        next();
-    } else {
-        next(new Error('Socket authentication error'));
-    }
-})
+// potential middleware
+// io.use((socket, next) => {
+//     const token = socket.handshake.auth.token;
+//     console.log(token);
+//     if (authJwt.isValidJwt(token)) {
+//         next();
+//     } else {
+//         next(new Error('Socket authentication error'));
+//     }
+// })
 
 io.on('connection', async (socket) => {
 
