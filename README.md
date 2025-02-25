@@ -8,45 +8,41 @@ https://www.youtube.com/watch?v=jX4dxVGvuVk
 
 ### General
 
-#### 1
+#### 1.
 
 Download the project via zip or git clone
 
-#### 2
+#### 2.
 
 Change directories to the project
 
 ### Client Side
 
-#### 1 (install dependencies)
+#### 1.
 
 run npm install in the terminal or command prompt
 
-#### 2 (change to client directory)
+#### 2.
 
 cd client 
 
-#### 3 (run the client side)
+#### 3.
 
 npm start
 
-#### 4 (change back to root directory)
-
-cd ..
-
 ### Server Side
 
-#### 1 (change directory to server)
+#### 1.
 
 cd server
 
-##### 2 (run the server)
+##### 2. 
 
 node index.js
 
 ### Expo Go
 
-#### 1 
+#### 1.
 
 Download the Expo App
 
